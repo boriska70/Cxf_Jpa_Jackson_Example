@@ -57,7 +57,7 @@ public class UnboundAddress {
         this.address = address.getAddress();
         this.metro = address.getMetro();
         this.notes = address.getNotes();
-
+        //we don't need to keep the entire place but we want to keep a reference
         Place place = address.getPlace();
         StringBuffer sb = new StringBuffer(place.getName()).append(" (id: "+place.getId()+")");
         this.place = sb.toString();
