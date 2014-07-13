@@ -13,8 +13,8 @@ Small java web application that demonstrates some technologies usage:
   - Basic Spring annotations
   - Transactional
   - Unit tests with SpringJUnit4ClassRunner and DB context
-  - DB setup (app-context)
-  - 
+  - DB setup (app-context.xml)
+  - Web setup (web.xml)
 
 1. Rest service
   - Apache CXF
