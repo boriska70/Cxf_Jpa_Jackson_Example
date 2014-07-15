@@ -43,3 +43,24 @@ Small java web application that demonstrates some technologies usage:
 4. General
   - log4j configuration
   - slf-log4j usage
+
+Payload example for initial data population:
+{
+        "name": "Kremlin",
+        "notes": "Putin's house and more",
+        "addresses": [
+            {
+                "alias": "main",
+                "address": "Red Square",
+                "metro": "Tverskaya",
+                "notes": "crowded and close to the Red Square"
+            },
+            {
+                "alias": "additional",
+                "address": "Red Square",
+                "metro": "Alexandrovsky Sad",
+                "notes": "less crowded and close to Kremlin entry"
+            }
+        ]
+    }
+
